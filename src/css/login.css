@@ -1,0 +1,77 @@
+.login-wrap{
+    padding: 26px 0 0;
+    background: url('https://passport.yhd.com/front-passport/passport/images/regist_topshadow.png?e829f75') repeat-x;
+}
+.wrap{
+    width: 980px;
+    margin: 0 auto;
+}
+.login-r{
+    position: relative;
+    float: right;
+    width: 330px;
+    padding: 45px 35px 0 35px;
+    background-color: #fff;
+}
+.login-cont h3{
+    float: left;
+    font-size: 14px;
+    color: #666;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+.login-cont a{
+    float: right;
+    line-height: 30px;
+    color: #06c;
+    font-size: 12px;
+}
+.login-form{
+    position: relative;
+    padding: 0 0 18px;
+    width: 330px;
+    margin: 0 auto;
+}
+.login-form p{
+    z-index: 101;
+    border: 1px solid #aaa;
+    position: relative;
+    z-index: 101;
+    height: 24px;
+    margin-bottom: 10px;
+    padding: 14px 18px;
+    border: 1px solid #dedede;
+    background: #FFF;
+    line-height: 24px;
+}
+.login-form p input{
+    outline: none;
+    width: 230px;
+    height: 24px;
+    padding-left: 3px;
+    border: 0 none;
+    line-height: 24px;
+    vertical-align: middle;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+}
+.login-form p .one{
+    color: #cccccc;
+}
+.login-form p .btn{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 330px;
+    height: 52px;
+    border: 0 none;
+    border-radius: 3px;
+    background: #ff3c3c;
+    font-size: 16px;
+    color: #FFF;
+    cursor: pointer;
+    text-shadow: 1px 1px 1px #ff7373;
+    font-family: "Microsoft YaHei";
+    line-height: 52px;
+}

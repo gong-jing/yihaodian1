@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>注册页面</title>
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/register.css" type="text/css">
+</head>
+<body>
+    <header class="regist-head clearfix">
+        <section class="wrap">
+            <a href="index.html" class="logo">
+                <img src="https://passport.yhd.com/front-passport/passport/images/loginlogo.jpg" alt="1号店">
+            </a>
+            <div class="regist-head-r clearfix">
+                <div class="help">
+                    <a href="javascript:;" class="head-menu"><i></i>帮助中心</a>
+                    <!-- 下拉菜单 -->
+                    <!-- <div></div> -->
+                    <span class="fleft">
+                            您好，欢迎光临1号店！ 
+                            <a href="login.html" class="login-link">请登录</a>
+                    </span>
+                </div>
+            </div>
+        </section>
+    </header>
+    <article class="regist-content">
+        <!-- 背景 -->
+        <div class="r-icon1"></div>
+        <div class="r-icon2"></div>
+        <!-- 主体 -->
+        <div class="regist-model">
+            <h4 class="regist-model-tit">一号店注册</h4>
+            <form class="regist-model-form" action="http://localhost/1907%20gj/yihaodian/php/register.php" method="post">
+                <ul class="clearfix">
+                    <!-- 用户名 -->
+                    <li>
+                        <div class="same-item">
+                            <input type="text"  id="username" class="same-input" name="username">
+                            <span class="same-label">用户名</span>
+                        </div>
+                        <!-- 提示信息 -->
+                        <div class="regist-tip" style="top:16px;">
+                            <div class="regist-rel">
+                                <i></i>
+                                <div class="tip-word"></div>
+                            </div>
+                        </div>
+                        <div class="regist-right"></div>
+                    </li>
+                    <!-- 手机号 -->
+                    <li>
+                            <div class="same-item">
+                                <input type="text"  id="phonenum" class="same-input" name="phonenum">
+                                <span class="same-label">手机号</span>
+                            </div>
+                            <!-- 提示信息 -->
+                            <div class="regist-tip" style="top:-4px;">
+                                <div class="regist-rel">
+                                    <i></i>
+                                    <div class="tip-word"></div>
+                                </div>
+                            </div>
+                            <div class="regist-right"></div>
+                        </li>
+                        <!-- 验证码 -->
+                        <li class="short-li">
+                        <div class="same-item fl">
+                                <input type="text"  id="phonecode" class="same-input" name="phonecode">
+                                <span class="same-label">验证码</span>
+                            </div>
+                            <a href="javascript:;" class="same-code-btn">
+                               <i>456asd</i>
+                              
+                            </a>
+                            <em style="font-size: 10px;font-style: normal;margin-left: 10px;cursor: pointer;">看不清，换一张</em>
+                            <!-- 提示信息 -->
+                            <div class="regist-tip" style="top:-14px; display: block">
+                                    <div class="regist-rel">
+                                        <i></i>
+                                        <div class="tip-word">
+                                        
+                                            </div>
+                                    </div>
+                                </div>
+                                <div class="regist-right"></div>
+                        </li>
+                        <!-- 设置密码 -->
+                        <li>
+                                <div class="same-item">
+                                    <input type="password"  id="password" class="same-input" name="password">
+                                    <span class="same-label">设置密码</span>
+                                </div>
+                                <!-- 提示信息 -->
+                                <div class="regist-tip" style="top:-24px;">
+                                    <div class="regist-rel">
+                                        <i></i>
+                                        <div class="tip-word"></div>
+                                    </div>
+                                </div>
+                                <div class="regist-right"></div>
+                            </li>
+                            <!-- 确认密码 -->
+                            <li>
+                                    <div class="same-item">
+                                        <input type="password"  id="pass" class="same-input">
+                                        <span class="same-label">确认密码</span>
+                                    </div>
+                                    <!-- 提示信息 -->
+                                    <div class="regist-tip" style="top:16px;">
+                                        <div class="regist-rel">
+                                            <i></i>
+                                            <div class="tip-word"></div>
+                                        </div>
+                                    </div>
+                                    <div class="regist-right"></div>
+                                </li>
+                                <!-- 注册 -->
+                                <li>
+                                    <div class="agree-word">点击注册，表示您同意1号店 <a href="javascript:;">《服务协议及隐私声明》</a></div>
+                                    <input type="submit" value="同意协议并注册" class="agree-btn" name='submit'>
+                                </li>
+
+                </ul>
+            </form>
+        </div>
+    </article>
+    <script src="js/jquery.js"></script>
+    <script src="js/register.js"></script>
+  
+</body>
+</html>

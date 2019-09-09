@@ -1,0 +1,237 @@
+/* 版心 */
+.wrap{
+    width: 980px;
+    margin: 0 auto;
+}
+/* header */
+.regist-head{
+    padding: 16px;
+    background: #FFF;
+    border: 1px solid #e1e1e1;
+}
+.regist-head .wrap{
+    width: 1200px;
+}
+/* logo */
+.logo{
+    display: block;
+    float: left;
+    width: 54px;
+    height: 48px;
+    color: #333;
+}
+.logo img{
+    height: 55px;
+    vertical-align: top;
+}
+/* 头右边 */
+.regist-head-r{
+    float: right;
+    line-height: 18px;
+    font-family: "SimSun";
+    color: #999;
+}
+.help{
+    background: #ffffff;
+    position: relative;
+    z-index: 1010;
+    float: right;
+    padding: 0 6px;
+    margin-left: 25px;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.head-menu{
+    padding-right: 18px;
+    color: #333;
+
+    background: url('https://passport.yhd.com/front-passport/passport/images/regist.png?e829f75') no-repeat right --30px;
+}
+.head-menu i{
+    width: 16px;
+    height: 18px;
+    display: inline-block;
+    margin-right: 6px;
+    vertical-align: middle;
+    background: url('https://passport.yhd.com/front-passport/passport/images/regist.png?e829f75') no-repeat -344px 0;
+}
+
+.fleft{
+    float: left;
+    
+}
+.login-link{
+    color: #06c
+}
+/* 主体内容 */
+.regist-content{
+    position: relative;
+    border-bottom: 1px solid #f4f4f4;
+    background: #fcfcfc;
+    padding: 30px 0 40px;
+}
+.r-icon1{
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    z-index: 120;
+    width: 1200px;
+    height: 500px;
+    margin-left: -600px;
+    background: url('https://passport.yhd.com/front-passport/passport/images/r_icon1.png?e829f75') no-repeat;
+    opacity: 0.2;
+}
+.r-icon2{
+    position: absolute;
+    top: 27px;
+    left: 50%;
+    z-index: 120;
+    width: 1200px;
+    height: 500px;
+    margin-left: -600px;
+    background: url('https://passport.yhd.com/front-passport/passport/images/r_icon2.png?e829f75') no-repeat;
+    opacity: .05;
+}
+/* 主体 */
+.regist-model{
+    position: relative;
+    z-index: 150;
+    width: 330px;
+    margin: 0 auto;
+}
+.regist-model-tit{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 50px;
+    color: #333;
+}
+.regist-model-form li{
+    display: block;
+    position: relative;
+    min-height: 52px;
+    margin-top: 10px;
+    margin-right: -200px;
+}
+.same-item{
+    position: relative;
+    z-index: 2;
+    width: 328px;
+    height: 50px;
+    border: 1px solid #dedede;
+    border-radius: 3px;
+}
+.same-input{
+    position: relative;
+    z-index: 2;
+    width: 288px;
+    height: 20px;
+    margin-top: 15px;
+    padding: 0px 20px;
+    background: 0;
+    border: 0;
+    outline: 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+.same-label{
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    display: inline-block;
+    height: 50px;
+    font-size: 14px;
+    line-height: 50px;
+    color: #666;
+}
+.regist-tip{
+    position: absolute;
+    left: 348px;
+    font-size: 12px;
+    color: #fff;
+    opacity: 0;
+}
+.regist-rel{
+    padding: 10px;
+    background: #e4e4e4;
+}
+.regist-rel i{
+    position: absolute;
+    left: -10px;
+    top: 50%;
+    z-index: 2;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    line-height: 0;
+    margin-top: -5px;
+    border-color: transparent #e4e4e4 transparent transparent;
+    border-style: dashed solid dashed dashed;
+    border-width: 5px;
+    font-size: 0;
+}
+.tip-word{
+    max-width: 160px;
+    line-height: 20px;
+    color: #666;
+}
+.regist-right{
+    display: none;
+    position: absolute;
+    left: 348px;
+    top: 14px;
+    width: 23px;
+    height: 23px;
+    background: url('https://passport.yhd.com/front-passport/passport/images/regist_new.png?e829f75') no-repeat -50px 0;
+}
+/* 短信验证 */
+.fl{
+    float: left;
+}
+.short-li .same-item{
+    width: 192px;
+}
+.short-li .same-item .same-input{
+    width: 152px;
+}
+.short-li .same-code-btn{
+    position: relative;
+    z-index: 2;
+    width: 126px;
+    height: 50px;
+    margin-left: 10px;
+    text-align: center;
+    background-color: #57565f;
+    line-height: 52px;
+    color: #fff;
+    cursor: default;
+    border-radius: 2px;
+    font-size: 14px;
+}
+
+/* 点击注册 */
+.agree-word{
+    height: 35px;
+    font-size: 12px;
+    line-height: 35px;
+    color: #666;
+    text-indent: 1em;
+}
+.agree-word a{
+    color: #06c;
+    text-decoration: none;
+    font-size: 12px;
+}
+.agree-btn{
+    display: block;
+    width: 330px;
+    height: 52px;
+    margin-top: 6px;
+    background-color: #ff3c3c;
+    font-size: 16px;
+    line-height: 52px;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+}

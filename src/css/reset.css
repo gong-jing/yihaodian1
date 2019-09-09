@@ -1,0 +1,39 @@
+body,h1,h2,h3,h4,h5,h6,p,input,fieldset,form,ul,ol,dl,dt{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font:14px "微软雅黑"；
+
+}
+em,i{
+    font-style: normal;
+}
+b,strong{
+    font-weight: normal;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    
+}
+img{
+    border:0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+}
+.left{
+    float: left;
+}
+:right{
+    float: right;
+}
